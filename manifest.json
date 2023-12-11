@@ -1,8 +1,8 @@
 {
 	"name": "PostChat",
 	"version_number": "1.0.0",
-	"website_url": "https://github.com/walksanatora/PostCat",
-	"description": "Client-side mod that sends outgoing chat to localhost:5000 with a POST request body contents being the message",
+	"website_url": "https://github.com/walksanatora/PostChat",
+	"description": "Client-side mod that sends outgoing chat to localhost:5000 with a POST request body contents being the message (idk why anyone would use this ;-;)",
 	"dependencies": [
 		"BepInEx-BepInExPack-5.4.2100"
 	]

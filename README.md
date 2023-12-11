@@ -1,14 +1,15 @@
 # PostChat
 sends ingame chat to a webserver. perfect for TTS and other external things.
-note you will have to provide your own assembly-CSharp and CoreModule
+note you will have to provide your own assembly-CSharp and CoreModule when compiling
+<br>
+if you go to the github at [https://github.com/walksanatora/PostChat](https://github.com/walksanatora/PostChat)
+there is a python script I use personally
 
 # setup on linux
 * install this mod (probally via r2modman)
 * make a venv with gTTS, pygame, and flask
 * run server.py
-* pactl load-module module-null-sink sink_name=pyloop
-* pactl load-module module-loopback source=pyloop.monitor
-* pactl move-sink-input (python audio output here) pyloop 
+* run setup.py
 * launch lethal company.
 * set microphone to the pyloop monitor
 if it worked when you join the lobby you should hear "(username) has joined the ship"
